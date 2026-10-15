@@ -1,0 +1,58 @@
+/* Hintergrund der gesamten Seite anpassen */
+body {
+    background-color: #f2e3d5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Tabelle zentrieren und Abstände regeln */
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-spacing: 30px;
+    /* Abstand zwischen den Tabellenzellen */
+}
+
+/* Linke Spalte (Text) */
+td:first-child {
+    vertical-align: top;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Rechte Spalte (Bild) */
+td:last-child {
+    vertical-align: top;
+    text-align: center;
+}
+
+/* Bild abrunden und mit Schatten versehen */
+td:last-child img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Typografie im linken Block */
+h1 {
+    color: #111;
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+    color: #444;
+}
+
+li,
+p {
+    color: #444;
+    line-height: 1.6;
+}
